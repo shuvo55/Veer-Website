@@ -1,0 +1,188 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .icon ul li {
+    padding: 0 6px;
+}
+    
+    .icon ul li a {
+    font-size: 14px;
+}
+ .navbar-light .navbar-toggler {
+    border-color: red;
+}
+    .navbar-nav .nav-item.active .nav-link,
+    .navbar-nav .nav-item .nav-link{
+    background-color: green;
+    text-align: center;
+    border-bottom: 4px solid #fff;
+    color: #fff;
+    margin-right:0px;    
+}
+    
+    .banner_con{
+        text-align: center;
+        margin-top:-40px;
+    } 
+    .banner_con h4{  
+    font-size: 20px;
+    text-align: center;    
+}
+    .banner_con a{
+        text-align: center;
+        margin-left: -25px;
+    }
+    .hidden{
+        display: none;
+    }
+    
+    .about_img{
+        margin-bottom: 0px;
+    }
+    
+    .about_con{
+        margin-top:-80px;
+    }
+    .about_con h4{
+        text-align: center;
+    }
+    
+    .about_con p{
+        text-align: center;
+    }
+    
+    .about_con a{
+        text-align: center;
+        margin-left:90px;
+    }
+    
+    
+    .ser_main {
+        margin-bottom: 51px;
+    }
+    .big_img {
+    margin-bottom: 20px;
+}
+    .round_img {
+    margin-top: 20px;
+}
+    
+    
+    .question_con h4{
+        text-align: center;
+    } 
+    
+    .question_con a{
+        text-align: center;
+        margin-left: 70px;
+    } 
+/*    footer part responisive start*/
+    
+    .credit_part_pic img{
+        margin-left:100px;
+    }
+    
+    .credit_part_con h4{
+        font-size: 20px;
+        text-align: center;
+    }
+    .f_logo{
+        text-align: center;
+    }
+    
+    .f_common_head h4{
+        text-align: center;
+    }
+    .f_icon{
+        margin-left: 30px;
+    }
+    
+    .f_menu{
+        margin-left: 20px;
+    }
+    
+    .sm_men{
+        margin-left: 70px;
+    }
+/*    footer part responisive end*/
+    
+    
+    
+    
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+ .navbar-light .navbar-toggler {
+    border-color: red;
+}
+    .navbar-nav .nav-item.active .nav-link,
+    .navbar-nav .nav-item .nav-link{
+    background-color: teal;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+    
+    .banner_con{
+        text-align: center;
+        
+    } 
+    .banner_con h1 {
+    font-size: 39px;
+}
+    .banner_con p{
+        text-align: justify;
+    }
+    
+    .hidden{
+        display: none;
+    }
+    
+    .about_con p {
+     padding-top: 0px; 
+        font-size: 12px;
+    
+}
+    .sm_m{
+        margin-bottom: 50px;
+    } 
+    .big_img {
+    margin-bottom: 20px;
+}
+    
+    /*    footer part responisive start*/
+    .f_logo{
+        text-align: center;
+    }
+    
+    .f_common_head h4{
+        text-align: center;
+    }
+    .f_icon{
+        padding-left: 150px;
+    }
+    .f_numb{
+        margin-left: 94px;
+    }
+    .f_menu{
+        margin-left: 70px;
+    }
+    
+    .sm_men{
+        margin-left: 170px;
+    }
+/*    footer part responisive end*/
+    
+    
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
